@@ -11,7 +11,7 @@ import logging
 
 # Load environment variables
 load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = "MTMyNTI1NjEzNDgwMTYyMTAwNQ.GaALx9.9-el-MHTr6MFznwAgJDv_ihhXpP-TPXoqHiPhA"
 
 if not TOKEN:
     raise ValueError("Bot token not found. Please set it in a .env file.")

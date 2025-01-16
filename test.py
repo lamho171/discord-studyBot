@@ -7,7 +7,7 @@ async def test_ssl():
     ssl_context = ssl.create_default_context(cafile=certifi.where())
     url = "https://discord.com/api/v10/users/@me"  # Discord API endpoint
     headers = {
-        "Authorization": f"Bot {YOUR_BOT_TOKEN}",
+        "Authorization": f"Bot {MTMyNTI1NjEzNDgwMTYyMTAwNQ.GaALx9.9-el-MHTr6MFznwAgJDv_ihhXpP-TPXoqHiPhA}",
         "User-Agent": "DiscordBot (https://example.com, v1.0)",
     }
 
@@ -23,6 +23,6 @@ async def test_ssl():
         except Exception as e:
             print(f"SSL test failed: {e}")
 
-YOUR_BOT_TOKEN = "MTMyNTI1NjEzNDgwMTYyMTAwNQ.GwN1hH.uPV-2f4ugt6FdNZj4_b7Aq9e3B5OWmM-v_nb_k"
+YOUR_BOT_TOKEN = "MTMyNTI1NjEzNDgwMTYyMTAwNQ.GaALx9.9-el-MHTr6MFznwAgJDv_ihhXpP-TPXoqHiPhA"
 
 asyncio.run(test_ssl())
